@@ -36,3 +36,7 @@ Now you can run the following to lint your code:
 bin/rubocop    # check for issues
 bin/rubocop -A # auto-correct
 ```
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
