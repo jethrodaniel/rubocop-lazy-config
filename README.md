@@ -1,6 +1,6 @@
 # rubocop-lazy-config
 
-Opinionated ruby styling based on [standardrb](https://github.com/standardrb/standard) plus rubocop recommendations.
+Simple ruby styling: [standardrb](https://github.com/standardrb/standard) plus anything rubocop recommends.
 
 ## Installation
 
