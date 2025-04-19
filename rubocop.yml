@@ -18,3 +18,4 @@ AllCops:
   Exclude:
     - '{bin,db,log}/**/*'
     - 'config/environments/**/*.rb'
+    - 'config/importmap.rb'
