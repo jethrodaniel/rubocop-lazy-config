@@ -16,6 +16,7 @@ inherit_gem:
 AllCops:
   NewCops: enable
   Exclude:
+    # Rails
     - '{bin,db,log}/**/*'
     - 'config/environments/**/*.rb'
     - 'config/importmap.rb'
