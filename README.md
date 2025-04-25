@@ -14,30 +14,16 @@ group :development, :test do
 end
 ```
 
-Then run:
-
-```shell
-bundle
-bundle binstubs rubocop
-```
-
 ## Usage
 
-Add a `.rubocop.yml` containing the following:
+Add the following to your config (e.g, `.rubocop.yml`):
 
 ```yaml
 inherit_gem:
   rubocop-lazy-config: rubocop.yml
 ```
 
-Now you can run the following to lint your code:
-
-```shell
-bin/rubocop    # check for issues
-bin/rubocop -A # auto-correct
-```
-
-### Customizing
+### Extending
 
 This gem ignores several auto-generated Rails files in `AllCops`, so if you
 want to add your own file paths to ignore, you'll need to merge the `Exclude`
